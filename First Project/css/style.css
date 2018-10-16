@@ -1,0 +1,214 @@
+@import url(bootstrap.min.css);
+@import url(thaisans-neue.css);
+@import url(font-awesome.min.css);
+@import url(THSarabunNew.css);
+
+.portfolio{
+	background-color: white;
+	min-height:1000px;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: black;
+	height: 80vh;
+    font-family: "tsn bold", sans-serif;
+	font-size: 35px;
+    margin: 0 0px;
+
+    padding: 0px 0px 40px 0px;
+
+}
+
+.portfolio > .container > center > h1 {
+	font-family: "tsn ultra-bold", sans-serif;
+	font-size: 80px;
+	line-height: 0.8em;
+}
+
+.portfolio > .container > center > span {
+	font-family: "THSbn", sans-serif;
+	font-size: 30px;
+	color: #ccc;
+}
+
+.portfolio > .header > h1 {
+	
+	text-align: right;
+	color: white;
+	margin-top: 5px;
+	box-sizing: border-box;
+	background-color: black;
+	padding-right: 9px;
+	float:left;
+	width: 300px;
+    height: 40px;
+    text-transform: uppercase;
+}
+
+.header{
+	position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+	width: 100%;
+	background-color: white;
+	z-index: 1000;
+    padding: 40px 0;
+}
+
+.header h1 a {
+	text-decoration: none;
+	color:white!important;
+}
+
+.header nav {
+    float: right;
+    padding: 0 100px;
+    letter-spacing: 0.5px;
+    display: block;
+    text-transform: uppercase;
+    color:black!important;
+}
+
+.header nav .nav-item a {
+	color:black!important;
+}
+.header nav .nav-item {
+    display: inline-block;
+    padding: 0 14px;
+    cursor: pointer;
+    color:black!important;
+}
+
+
+a {
+	text-decoration: none!important; 
+	background-color: none; 
+}
+
+.section1 {
+	min-height: 750px;
+	margin: 50px 150px;
+	padding: 10px;
+	display: flex;
+  	align-items: center;
+}
+
+.section1 div img {
+	width: 100%;
+	max-width: 500px;
+	position: relative;
+}
+
+.section1 div .right-text {
+	float: right;
+	
+}
+
+.section2 {
+	min-height: 500px;
+	margin: 25px 0px;
+	background-color: black;
+	display: flex;
+  	align-items: center;
+    top: 0;
+    margin: auto;
+    color: #FFF;
+    box-sizing: inherit;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;
+
+}
+
+
+.section2 .half1 {
+	float: right;
+
+}
+
+.section2 .half2 {
+	padding: 20px 60px 0px;
+	font-size:20px;
+	font-weight:200;
+
+}
+
+.section2 .items {
+	margin-top: 10px;
+	font-size: 12px;
+    color: #2F2936;
+    background-color: black;
+    margin-left: 80px;
+    margin-right: 150px;
+
+}
+
+.section2 .items .name {
+	display: inline-block;
+    padding: 3px 6px 4px;
+    width: auto;
+    background: white;
+    white-space: nowrap;
+}
+
+.section2 .items .number{
+	color:white;
+	display: inline-block;
+    margin-left: 10px;
+}
+
+.section3{
+	min-height: 300px;
+	background-color: white;
+	margin :50px 100px;
+	align-items: center;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+table {
+    background-color: transparent;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}    
+
+.footer{
+	padding:5px 0;
+	background-color: black;
+	text-align: center;
+}
+	
+.footer .text {
+	color:grey;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
