@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Topic from './Component/Index/TopicSection';
+import Topics from './Component/Index/TopicSection';
 import MenuBars from './Component/Index/MenuBar'
 
 // const myName = `Pz`
@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <MenuBars/>
-        <Topic/>
+        <Topics/>
       </div>
     )
   }
