@@ -8,15 +8,26 @@ const Topic = (props) => (
 )
 
 const Section1 = (props) => (
-    <row>
-    <Pic src = 'img/beaverpic.jpg'/>
-    <button onclick="{props.name}">{props.name}</button>
-    </row>
+    <Box>
+    <Pic src = 'img/beaverpic.png'/>
+    <Button onclick="{props.name}">{props.name}</Button>
+    </Box>
 )
 const Pic = styled.img`
-  width: 60%;
-  max-width: 150px;
-  user-select: none;
+    max-width: 150px;
+    user-select: none;
+`
+const Button = styled.button`
+    display:flex;
+    margin:auto;
+    
+`
+const Box = styled.div`
+    margin : 10px;
+    display:inline-block;
+    text-align:center;
+    align-items:center;
+    
 `
 const Topic2 = (props) => (
     <div>
@@ -29,10 +40,10 @@ const Topic2 = (props) => (
 const Topics = () => (
     <div>
         <Topic name = "Hello World"/>
-        <Section1 name = "Front-End"/>
-        <Section1 name = "Design"/>
-        <Section1 name = "Game"/>
-        <Section1 name = "Infra"/>
+        <Section1 name = "Front-End" color='red'/>
+        <Section1 name = "Design" color = 'blue'/>
+        <Section1 name = "Game" color = 'cyan'/>
+        <Section1 name = "Infra" color = 'lime'/>
         <Topic2 name = "Front-End"/>
         <Topic2 name = "Design"/>
         <Topic2 name = "Game"/>

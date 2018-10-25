@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Topics from './Component/Index/TopicSection';
-import MenuBars from './Component/Index/MenuBar'
+import NavBar from './Component/Index/NavBar'
 import Footer from './Component/Index/Footer'
 
 // const myName = `Pz`
@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <MenuBars/>
+        <NavBar/>
         <Topics/>
         <Footer/>
       </div>
