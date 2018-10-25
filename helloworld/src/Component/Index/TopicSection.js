@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import beaverpic from '../../img/beaverpic.jpg'
 
 const Topic = (props) => (
     <div>
@@ -10,7 +9,7 @@ const Topic = (props) => (
 
 const Section1 = (props) => (
     <row>
-    <Pic src = {beaverpic} />
+    <Pic src = 'img/beaverpic.jpg'/>
     <button onclick="{props.name}">{props.name}</button>
     </row>
 )
@@ -18,7 +17,6 @@ const Pic = styled.img`
   width: 60%;
   max-width: 150px;
   user-select: none;
-
 `
 const Topic2 = (props) => (
     <div>
