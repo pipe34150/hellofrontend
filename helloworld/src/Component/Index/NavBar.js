@@ -20,11 +20,20 @@ const Logo = styled.div`
     color:#69302C;
 
 `
-const RegisterButton = styled.div`
+const RegisterButton = styled.button`
     float: right;
     text-align:left;
     margin-right:4em;
     color:white;
+    font-size: 0.9em;
+    border-radius: 5px;
+    color: #69302C;
+    border: 2px solid #69302C;
+    margin:auto;
+    margin-top:-0.1em;
+    padding : 0.2em 0.4em;
+    background-color: Transparent;
+    font-family: "Kanit";
 `
 
 
@@ -41,7 +50,7 @@ const NavItem = (props) => (
 )
 
 const Register = () => (
-    <RegisterButton>รีจีสเตอร์</RegisterButton>
+    <RegisterButton>รีจีสเตอร์ บัททอน</RegisterButton>
 )
 
 const NavBar = () => (
