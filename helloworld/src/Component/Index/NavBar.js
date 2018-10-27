@@ -8,7 +8,7 @@ const Header = styled.div`
     -webkit-box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
     -moz-box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
     box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
-    padding : 1em;
+    padding : 1.5em 5em;
     text-align:center;
 
 `
@@ -37,22 +37,20 @@ const NavPosition = styled.nav`
 
 `
 const NavItem = (props) => (
-    <NavPosition>
-        <a herf = "">{props.name}</a>
-    </NavPosition>
+    <NavPosition>{props.name}</NavPosition>
 )
 
 const Register = () => (
-    <RegisterButton>Register</RegisterButton>
+    <RegisterButton>รีจีสเตอร์</RegisterButton>
 )
 
 const NavBar = () => (
     <Header>
-        <Logo>Logo.png</Logo>
-        <NavItem name = 'Front-End'/>
-        <NavItem name = 'Design'/>
-        <NavItem name = 'Game'/>
-        <NavItem name = 'Infra'/>
+        <Logo>โลโก้.พีเอ็นจี</Logo>
+        <NavItem name = 'ฟ้อนเอ็นด์'/>
+        <NavItem name = 'ดรีซายน์'/>
+        <NavItem name = 'เกรมส์'/>
+        <NavItem name = 'อินทร์ฟร๊'/>
         <Register />
         
     </Header>
